@@ -24,9 +24,7 @@ struct ContentView: View {
                 .padding(10)
             
             Button("Search") {
-//                print("Hello")
-//                mapLocationData().getLatitudeAndLangitude(address: locationText)
-                
+
                 openMap = true
             }
         }.sheet(isPresented: $openMap) {
