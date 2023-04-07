@@ -28,8 +28,8 @@ struct ContentView: View {
                 openMap = true
             }
         }.sheet(isPresented: $openMap) {
-           // mapViewModel(exitMapVie: $openMap, searchText: $locationText)
-            mapViewModel()
+            mapViewModel(exitMapVie: $openMap, searchText: $locationText)
+           
         }
     }
 

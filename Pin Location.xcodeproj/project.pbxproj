@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B9B0EA729E06582004819E3 /* PMJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 4B9B0EA629E06582004819E3 /* PMJSON */; };
 		4BB0173E29D820420051AA9E /* Pin_LocationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB0173D29D820420051AA9E /* Pin_LocationApp.swift */; };
 		4BB0174029D820420051AA9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB0173F29D820420051AA9E /* ContentView.swift */; };
 		4BB0174229D820440051AA9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BB0174129D820440051AA9E /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B9B0EA729E06582004819E3 /* PMJSON in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +88,9 @@
 			dependencies = (
 			);
 			name = "Pin Location";
+			packageProductDependencies = (
+				4B9B0EA629E06582004819E3 /* PMJSON */,
+			);
 			productName = "Pin Location";
 			productReference = 4BB0173A29D820420051AA9E /* Pin Location.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +119,9 @@
 				Base,
 			);
 			mainGroup = 4BB0173129D820420051AA9E;
+			packageReferences = (
+				4B9B0EA529E06582004819E3 /* XCRemoteSwiftPackageReference "PMJSON" */,
+			);
 			productRefGroup = 4BB0173B29D820420051AA9E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -343,6 +351,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4B9B0EA529E06582004819E3 /* XCRemoteSwiftPackageReference "PMJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/postmates/PMJSON";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4B9B0EA629E06582004819E3 /* PMJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B9B0EA529E06582004819E3 /* XCRemoteSwiftPackageReference "PMJSON" */;
+			productName = PMJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4BB0173229D820420051AA9E /* Project object */;
 }

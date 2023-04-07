@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "pmjson",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/postmates/PMJSON",
+      "state" : {
+        "branch" : "master",
+        "revision" : "1221cbdf2573bbd693e6ecd2da3f012dec9ff1d8"
+      }
+    }
+  ],
+  "version" : 2
+}
